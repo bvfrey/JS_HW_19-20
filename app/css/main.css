@@ -1,0 +1,474 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+body .section {
+  width: 100%;
+}
+
+body .section__style1 {
+  background-color: #ffffff;
+}
+
+body .section__style2 {
+  background-color: #2a2d32;
+}
+
+body .section__style3 {
+  background-color: #f7f7f7;
+  height: 100%;
+}
+
+body .section__style4 {
+  background-color: #35383c;
+}
+
+body .wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1160px;
+  margin: auto;
+}
+
+body .clearfix {
+  clear: both;
+}
+
+body a {
+  text-decoration: none;
+}
+
+.intro {
+  padding-top: 20px;
+}
+
+.intro .logo {
+  float: left;
+  padding: 25px 0;
+  width: 206px;
+  height: 26px;
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.intro .social {
+  float: right;
+  width: 152px;
+  height: 21px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro .social img {
+  cursor: pointer;
+}
+
+.intro .main_menu {
+  position: relative;
+  height: 56px;
+  background-color: #2a2d32;
+  font-family: "Ubuntu Condensed", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.intro .main_menu ul {
+  position: relative;
+  float: left;
+}
+
+.intro .main_menu ul li {
+  display: block;
+  float: left;
+}
+
+.intro .main_menu ul li a {
+  display: block;
+  padding: 20px 30px;
+  color: white;
+  border-right: 1px solid black;
+}
+
+.intro .main_menu ul li a:hover {
+  color: #f4b60d;
+}
+
+.intro .main_menu ul li a:active {
+  background-color: #248cec;
+}
+
+.intro .main_menu input[type=text] {
+  box-sizing: border-box;
+  display: block;
+  float: right;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: #35383c;
+  width: 240px;
+  height: 38px;
+  font-size: 12px;
+  background-image: url("../img/search_icon.png");
+  background-position: 210px 10px;
+  background-repeat: no-repeat;
+  padding: 0 40px 0 10px;
+  color: grey;
+}
+
+.intro .main_menu input[type=text]:focus {
+  border: 1px solid black;
+  background-color: #35383c;
+  color: grey;
+}
+
+.intro .caroussel {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.intro .caroussel .caroussel-map {
+  width: 80px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro .caroussel .caroussel-map img {
+  cursor: pointer;
+}
+
+.why_us {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.why_us .box {
+  width: 31%;
+  padding-bottom: 85px;
+}
+
+.why_us .box .number {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 90px;
+  float: left;
+  color: #efefef;
+}
+
+.why_us .box h3 {
+  width: 100%;
+  margin-left: 120px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.why_us .box img {
+  margin-left: 17px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.why_us .box p {
+  margin: 20px 0 20px 120px;
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  color: #8a8a8a;
+  line-height: 1.2rem;
+}
+
+.why_us .box .more {
+  font-size: 0.8rem;
+  margin-left: 120px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+}
+
+.why_us .box .more a {
+  color: black;
+}
+
+.why_us .box .more a span {
+  color: #248cec;
+}
+
+.why_us .box .more a:hover {
+  color: #248cec;
+}
+
+h2 {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 53px;
+}
+
+.services {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.services .service_box {
+  width: 21.5%;
+}
+
+.services .service_box .img-hover {
+  display: block;
+  background-color: #248cec;
+}
+
+.services .service_box .img-hover img {
+  display: block;
+  width: 100%;
+}
+
+.services .service_box .img-hover img:hover {
+  opacity: 0;
+}
+
+.services .service_box .desc {
+  font-size: 0.9rem;
+  color: #e3e3e3;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  padding: 15px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.services .service_box .desc:hover {
+  color: #f4b60d;
+}
+
+.news_and_adds {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news_and_adds .news {
+  position: relative;
+  width: 48%;
+  margin-bottom: 30px;
+}
+
+.news_and_adds .news h2 {
+  margin-bottom: 30px;
+  color: #2a2d32;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 24px;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+.news_and_adds .news .news-box {
+  position: relative;
+}
+
+.news_and_adds .news .news-box:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.news_and_adds .news .news-box img {
+  float: left;
+  width: 27%;
+}
+
+.news_and_adds .news .news-box h4 {
+  margin-bottom: 10px;
+  color: #2a2d32;
+  font-family: "Ubuntu", sans-serif;
+  margin-left: 180px;
+  font-weight: 600;
+}
+
+.news_and_adds .news .news-box h4:hover {
+  cursor: pointer;
+  color: #248cec;
+}
+
+.news_and_adds .news .news-box .details {
+  margin-left: 30px;
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #9d9d9d;
+  font-family: Arial;
+  font-size: 0.8rem;
+}
+
+.news_and_adds .news .news-box .details span {
+  color: #248cec;
+}
+
+.news_and_adds .news .news-box .text {
+  margin: 0 0 40px 180px;
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  color: #8a8a8a;
+  line-height: 1.2rem;
+}
+
+.news_and_adds .news .banners .text {
+  margin: 30px 0 30px 40px;
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  color: #8a8a8a;
+  line-height: 1.2rem;
+}
+
+.news_and_adds .news .banners .not_visible {
+  display: none;
+}
+
+.news_and_adds .news .banners .visible {
+  display: block;
+}
+
+.news_and_adds .news .panel {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0 0 0 20px;
+  text-transform: uppercase;
+  color: #2a2d32;
+  border: 1px solid #e8e8e8;
+  background-color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.news_and_adds .news .panel .border {
+  position: relative;
+  display: inline-block;
+  width: 1px;
+  height: 40px;
+  margin: 0 20px;
+  vertical-align: middle;
+  background-color: #e8e8e8;
+}
+
+.news_and_adds .news .panel__active {
+  color: #ffffff;
+  background-color: #f4b60d;
+}
+
+.brands {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.brands img:hover {
+  cursor: pointer;
+}
+
+.site-map {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-map ul {
+  width: 21%;
+  margin-bottom: 70px;
+}
+
+.site-map ul h5 {
+  margin: 50px 0 30px;
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.site-map ul a {
+  display: block;
+  color: #828385;
+  border-bottom: 1px solid #828385;
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.site-map ul a:hover {
+  color: #248cec;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.05);
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  color: #828385;
+}
+
+.footer .adress {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer .adress:before {
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+  margin-right: 10px;
+  content: "";
+  background: url("../img/location-icon.png") 0 0 no-repeat;
+}
+
+.footer .phone {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer .phone:before {
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+  margin-right: 10px;
+  content: "";
+  background: url("../img/phone-icon.png") 0 0 no-repeat;
+}
+
+.footer .email {
+  display: inline-block;
+  color: #828385;
+  font-family: Arial;
+}
+
+.footer .email:before {
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+  margin-right: 10px;
+  content: "";
+  background: url("../img/mail-icon.png") 0 0 no-repeat;
+  background-position: bottom;
+}
+
+.copy {
+  display: inline-block;
+  float: right;
+  color: #828385;
+  font-family: Arial;
+}
